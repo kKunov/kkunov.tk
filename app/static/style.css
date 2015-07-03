@@ -1,7 +1,47 @@
-h1 {
+h1, h3, h5 {
     text-align: center;
 }
 
-p {
+p.home-page {
     font-size: 24;
+}
+
+#color-big {
+    background-color: #FA667A;
+    border: solid 2px black;
+}
+
+#color-mid {
+    background-color: #FAE666;
+    border: solid 2px black;
+
+}
+
+#color-small {
+    background-color: #6EFA66;
+    border: solid 2px black;
+}
+
+body {
+    background-color: #ABABAB;
+}
+
+.contacts {
+    text-align: center;
+}
+
+.spacer10em {
+    margin-top: 10em;
+}
+
+.spacer4em {
+    margin-top: 4em;
+}
+
+.right-align {
+    margin-right: 2em;
+}
+
+#sites2 {
+    width:100%;
 }
