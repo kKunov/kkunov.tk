@@ -1,3 +1,41 @@
+/* Navbar */
+#sites2 {
+    width:100%;
+}
+
+.right-align {
+    margin-right: 2em;
+}
+
+.navbar-costum-colors {
+    background-color: #474747;
+    border: none;
+}
+
+.navbar-nav.nav > li > a, .navbar-header > a.navbar-brand {
+    color: #00CCFF;
+}
+
+.navbar-nav.nav > li > a:hover {
+    color: #0024FF;
+    font-size: 16px;
+}
+.navbar-header > a.navbar-brand:hover {
+    color: #0024FF;
+}
+
+/* Header */
+.page-header {
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    background-color: #919191;
+}
+
+h1:hover {
+    color: #0024FF;
+}
+
+/* Body and text colors and size */
 h1, h3, h5 {
     text-align: center;
 }
@@ -7,19 +45,22 @@ p.home-page {
 }
 
 #color-big {
-    background-color: #FA667A;
+    color: #9C9C9C;
+    background-color: #474747;
     border: solid 2px black;
+    border-radius: 7%;
 }
 
 #color-mid {
-    background-color: #FAE666;
+    background-color: #9C9C9C;
     border: solid 2px black;
-
+    border-radius: 7%;
 }
 
 #color-small {
-    background-color: #6EFA66;
+    background-color: #E8E8E8;
     border: solid 2px black;
+    border-radius: 7%;
 }
 
 body {
@@ -28,6 +69,7 @@ body {
 
 .contacts {
     text-align: center;
+    color: #0044FF;
 }
 
 .spacer10em {
@@ -38,10 +80,14 @@ body {
     margin-top: 4em;
 }
 
-.right-align {
-    margin-right: 2em;
+
+/* Home Page Button */
+#sites2 {
+    background-color: #474747;
+    color: #0088FF;
+    font-size: 20px;
 }
 
-#sites2 {
-    width:100%;
+#sites2:hover {
+    color: #0300A3;
 }
