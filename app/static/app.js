@@ -6,10 +6,10 @@ $(document).ready(function() {
     });
     var sitesBtn = $("#sites");
     sitesBtn.click(function () {
-        $("#content").load("/static/sites.html");
+        $("#content").load("/static/sites2.html");
     });
     var sitesBtn2 = $("#sites2");
     sitesBtn2.click(function () {
-        $('#sites').trigger('click');
+        $("#content").load("/static/sites2.html");
     });
 });
