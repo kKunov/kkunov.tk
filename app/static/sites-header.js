@@ -23,8 +23,8 @@ stage.add(layer);
 var amplitude = 2* (screen_width / 3);
 var period = 3000;
 var anim = new Kinetic.Animation(function(frame){
-    text.setX(amplitude * Math.sin(frame.time*2*Math.PI/period) + (screen_width - 100));
-    if (text.getX() <= screen_width / 2 - 602 /2){
+    text.setX(amplitude * Math.sin(frame.time*2*Math.PI/period) + (screen_width - 350));
+    if (text.getX() <= screen_width / 2 - 568 /2){
         this.stop();
     }
 }, layer);
