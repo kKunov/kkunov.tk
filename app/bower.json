@@ -12,7 +12,8 @@
     "bower_components",
     "public/lib",
     "test",
-    "tests"
+    "tests",
+    "static"
   ],
   "dependencies": {
     "jquery": "~2.1.4"

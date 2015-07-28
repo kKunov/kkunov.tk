@@ -38,6 +38,7 @@ h1:hover {
 /* Body and text colors and size */
 h1, h3, h5 {
     text-align: center;
+    color: black;
 }
 
 p.home-page {
