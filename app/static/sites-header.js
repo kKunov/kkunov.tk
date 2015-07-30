@@ -1,32 +1,16 @@
-var screen_width = $(window).width();
+ $(document).ready(function(){   
+    var screen_width = $(window).width();
 
-var stage = new Kinetic.Stage({
-    container: "page-header",
-    width: screen_width,
-    height: 70,
+    var pap = Raphael("page-header", screen_width, 70);
+    var text = pap.text(screen_width + 30, 35, "От тук можете да си поръчате сайт!");
+
+    text.attr({
+        "font-size": 40,
+    });
+
+    text.animate({
+        x: screen_width / 2,
+    }, 2000)
+
 });
 
-var layer = new Kinetic.Layer();
-var text = new Kinetic.Text({
-    x: stage.width,
-    y:20,
-    height: 60,
-    width: 602,
-    fontSize: 36,
-    fill: "black",
-    text: "От тук можете да си поръчате сайт!",
-});
-
-layer.add(text);
-stage.add(layer);
-
-var amplitude = 2* (screen_width / 3);
-var period = 3000;
-var anim = new Kinetic.Animation(function(frame){
-    text.setX(amplitude * Math.sin(frame.time*2*Math.PI/period) + (screen_width - 350));
-    if (text.getX() <= screen_width / 2 - 568 /2){
-        this.stop();
-    }
-}, layer);
-
-anim.start();

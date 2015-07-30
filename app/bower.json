@@ -16,6 +16,7 @@
     "static"
   ],
   "dependencies": {
-    "jquery": "~2.1.4"
+    "jquery": "~2.1.4",
+    "raphael": "~2.1.4"
   }
 }
